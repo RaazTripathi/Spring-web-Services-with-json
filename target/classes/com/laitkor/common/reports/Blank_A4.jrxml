@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version last-->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Blank_A4" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="dee960e7-cbab-41ce-bf01-fd5e4b3974c8">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Json"/>
+	<parameter name="XNID" class="java.lang.String"/>
+	<queryString language="JSON">
+		<![CDATA[where XNID=$P[XNID]]>
+	</queryString>
+	<field name="XNID" class="java.lang.String">
+		<fieldDescription><![CDATA[XNID]]></fieldDescription>
+	</field>
+	<field name="patientPhoneBest" class="java.lang.String">
+		<fieldDescription><![CDATA[patientPhoneBest]]></fieldDescription>
+	</field>
+	<field name="patientaddresscity" class="java.lang.String">
+		<fieldDescription><![CDATA[patientaddresscity]]></fieldDescription>
+	</field>
+	<field name="extraDonorInfo" class="java.lang.String">
+		<fieldDescription><![CDATA[extraDonorInfo]]></fieldDescription>
+	</field>
+	<field name="preferredContactTime" class="java.lang.String">
+		<fieldDescription><![CDATA[preferredContactTime]]></fieldDescription>
+	</field>
+	<field name="pat_date" class="java.lang.String">
+		<fieldDescription><![CDATA[pat_date]]></fieldDescription>
+	</field>
+	<field name="datetimeLast_updated" class="java.lang.String">
+		<fieldDescription><![CDATA[datetimeLast_updated]]></fieldDescription>
+	</field>
+	<field name="age" class="java.lang.String">
+		<fieldDescription><![CDATA[age]]></fieldDescription>
+	</field>
+	<field name="gender" class="java.lang.String">
+		<fieldDescription><![CDATA[gender]]></fieldDescription>
+	</field>
+	<field name="infoPcpcity" class="java.lang.String">
+		<fieldDescription><![CDATA[infoPcpcity]]></fieldDescription>
+	</field>
+	<field name="provider_fullname" class="java.lang.String">
+		<fieldDescription><![CDATA[provider_fullname]]></fieldDescription>
+	</field>
+	<field name="timePat_visit" class="java.lang.String">
+		<fieldDescription><![CDATA[timePat_visit]]></fieldDescription>
+	</field>
+	<field name="preferredContactDay" class="java.lang.String">
+		<fieldDescription><![CDATA[preferredContactDay]]></fieldDescription>
+	</field>
+	<field name="patientFirstname" class="java.lang.String">
+		<fieldDescription><![CDATA[patientFirstname]]></fieldDescription>
+	</field>
+	<field name="infoProviderOtherFullname" class="java.lang.String">
+		<fieldDescription><![CDATA[infoProviderOtherFullname]]></fieldDescription>
+	</field>
+	<field name="infoPcpstate" class="java.lang.String">
+		<fieldDescription><![CDATA[infoPcpstate]]></fieldDescription>
+	</field>
+	<field name="bloodtype" class="java.lang.String">
+		<fieldDescription><![CDATA[bloodtype]]></fieldDescription>
+	</field>
+	<field name="datePat_visit" class="java.lang.String">
+		<fieldDescription><![CDATA[datePat_visit]]></fieldDescription>
+	</field>
+	<field name="patient_surgery_date" class="java.lang.String">
+		<fieldDescription><![CDATA[patient_surgery_date]]></fieldDescription>
+	</field>
+	<field name="patientAddressZip" class="java.lang.String">
+		<fieldDescription><![CDATA[patientAddressZip]]></fieldDescription>
+	</field>
+	<field name="email" class="java.lang.String">
+		<fieldDescription><![CDATA[email]]></fieldDescription>
+	</field>
+	<field name="recipientdob" class="java.lang.String">
+		<fieldDescription><![CDATA[recipientdob]]></fieldDescription>
+	</field>
+	<field name="patientHeightInches" class="java.lang.String">
+		<fieldDescription><![CDATA[patientHeightInches]]></fieldDescription>
+	</field>
+	<field name="procedureId" class="java.lang.String">
+		<fieldDescription><![CDATA[procedureId]]></fieldDescription>
+	</field>
+	<field name="timeSurgery_scheduled_visit" class="java.lang.String">
+		<fieldDescription><![CDATA[timeSurgery_scheduled_visit]]></fieldDescription>
+	</field>
+	<field name="infoProviderSurgeonPhoneBest" class="java.lang.String">
+		<fieldDescription><![CDATA[infoProviderSurgeonPhoneBest]]></fieldDescription>
+	</field>
+	<field name="initialScreenSummary" class="java.lang.String">
+		<fieldDescription><![CDATA[initialScreenSummary]]></fieldDescription>
+	</field>
+	<field name="infoPcpname" class="java.lang.String">
+		<fieldDescription><![CDATA[infoPcpname]]></fieldDescription>
+	</field>
+	<field name="mrn" class="java.lang.String">
+		<fieldDescription><![CDATA[mrn]]></fieldDescription>
+	</field>
+	<field name="infoPcphone" class="java.lang.String">
+		<fieldDescription><![CDATA[infoPcphone]]></fieldDescription>
+	</field>
+	<field name="userReviewed_by" class="java.lang.String">
+		<fieldDescription><![CDATA[userReviewed_by]]></fieldDescription>
+	</field>
+	<field name="infoProviderSurgeonFullname" class="java.lang.String">
+		<fieldDescription><![CDATA[infoProviderSurgeonFullname]]></fieldDescription>
+	</field>
+	<field name="patientWeightPounds" class="java.lang.String">
+		<fieldDescription><![CDATA[patientWeightPounds]]></fieldDescription>
+	</field>
+	<field name="patientHeightFeet" class="java.lang.String">
+		<fieldDescription><![CDATA[patientHeightFeet]]></fieldDescription>
+	</field>
+	<field name="recipientname" class="java.lang.String">
+		<fieldDescription><![CDATA[recipientname]]></fieldDescription>
+	</field>
+	<field name="infoProviderOtherAddressPrimaryCity" class="java.lang.String">
+		<fieldDescription><![CDATA[infoProviderOtherAddressPrimaryCity]]></fieldDescription>
+	</field>
+	<field name="patientAddressStreet" class="java.lang.String">
+		<fieldDescription><![CDATA[patientAddressStreet]]></fieldDescription>
+	</field>
+	<field name="dateSurgery_scheduled_visit" class="java.lang.String">
+		<fieldDescription><![CDATA[dateSurgery_scheduled_visit]]></fieldDescription>
+	</field>
+	<field name="patientaddressstate" class="java.lang.String">
+		<fieldDescription><![CDATA[patientaddressstate]]></fieldDescription>
+	</field>
+	<field name="patientLastname" class="java.lang.String">
+		<fieldDescription><![CDATA[patientLastname]]></fieldDescription>
+	</field>
+	<field name="timeCompleted" class="java.lang.String">
+		<fieldDescription><![CDATA[timeCompleted]]></fieldDescription>
+	</field>
+	<field name="infoProviderSurgeonAddressPrimaryState" class="java.lang.String">
+		<fieldDescription><![CDATA[infoProviderSurgeonAddressPrimaryState]]></fieldDescription>
+	</field>
+	<field name="patientPhoneAlt" class="java.lang.String">
+		<fieldDescription><![CDATA[patientPhoneAlt]]></fieldDescription>
+	</field>
+	<field name="reportvarstitle" class="java.lang.String">
+		<fieldDescription><![CDATA[reportvarstitle]]></fieldDescription>
+	</field>
+	<field name="infoProviderOtherAddressPrimaryState" class="java.lang.String">
+		<fieldDescription><![CDATA[infoProviderOtherAddressPrimaryState]]></fieldDescription>
+	</field>
+	<field name="targetBmi" class="java.lang.String">
+		<fieldDescription><![CDATA[targetBmi]]></fieldDescription>
+	</field>
+	<field name="dob" class="java.lang.String">
+		<fieldDescription><![CDATA[dob]]></fieldDescription>
+	</field>
+	<field name="infoProviderSurgeonAddressPrimaryCity" class="java.lang.String">
+		<fieldDescription><![CDATA[infoProviderSurgeonAddressPrimaryCity]]></fieldDescription>
+	</field>
+	<field name="infoProviderOtherPhoneBest" class="java.lang.String">
+		<fieldDescription><![CDATA[infoProviderOtherPhoneBest]]></fieldDescription>
+	</field>
+	<field name="patientPhoneAlt2" class="java.lang.String">
+		<fieldDescription><![CDATA[patientPhoneAlt2]]></fieldDescription>
+	</field>
+	<field name="surveyId" class="java.lang.String">
+		<fieldDescription><![CDATA[surveyId]]]></fieldDescription>
+	</field>
+	<filterExpression><![CDATA[$F{XNID}.equals( $P{XNID} )]]></filterExpression>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<pageHeader>
+		<band height="143">
+			<line>
+				<reportElement uuid="b918b898-ac6e-498b-994e-5ac7aeda91db" x="270" y="32" width="1" height="74"/>
+			</line>
+			<textField>
+				<reportElement uuid="5fc9eb11-426f-4969-939f-3f0a5853229d" x="5" y="63" width="135" height="12"/>
+				<textElement textAlignment="Left" verticalAlignment="Bottom">
+					<font fontName="SansSerif" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Page "+$V{PAGE_NUMBER}+" of "+ $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="334a8357-0410-4146-a6f8-a9a6e0192982" x="274" y="46" width="15" height="56"/>
+				<textElement verticalAlignment="Bottom" rotation="Right">
+					<font fontName="SansSerif" size="8"/>
+				</textElement>
+				<text><![CDATA[Patient ID]]></text>
+			</staticText>
+			<textField>
+				<reportElement uuid="f681e75b-b087-4434-8d1f-9e4b260e8f25" x="295" y="62" width="226" height="12"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="SansSerif" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{patientFirstname} + $F{patientLastname}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="2395718c-80cb-4726-beae-d527d7b353e0" x="295" y="76" width="100" height="12"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="SansSerif" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA["DOB: "+$F{dob}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="9f10af5f-cc5e-4405-a38e-774490736762" x="395" y="87" width="126" height="12"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="SansSerif" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Age: "+$F{age}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="238d9bd7-c5db-4e73-bf14-15c5b1f6b44c" x="295" y="50" width="177" height="12"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="SansSerif" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA["MRN "+$F{mrn}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="5ffa4e85-7afd-4f10-8461-8d5bd066507b" x="295" y="87" width="100" height="12"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="SansSerif" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Gender:"+$F{gender}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="4ab4408e-2161-44f3-a776-57c2fdff6fcc" x="5" y="78" width="260" height="20"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="SansSerif" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Living Donor Followup Reminder"]]></textFieldExpression>
+			</textField>
+			<image>
+				<reportElement uuid="159e61d6-c2b2-4e6a-8715-ae61c954434e" x="5" y="15" width="175" height="50"/>
+				<imageExpression><![CDATA["http://localhost:7001/BREEZE_ReportEngine/logo.png"]]></imageExpression>
+			</image>
+		</band>
+	</pageHeader>
+	<detail>
+		<band height="658" splitType="Stretch">
+			<rectangle>
+				<reportElement uuid="566dfa56-9ab6-45f5-8424-b0dc18d5131a" mode="Opaque" x="-1" y="-8" width="555" height="629"/>
+			</rectangle>
+			<textField>
+				<reportElement uuid="17a59b92-9561-4ae0-8476-c5544b1bb48f" mode="Opaque" x="270" y="0" width="270" height="15" backcolor="#F9F6F6"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="SansSerif" size="10" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Date of Surgery: " +$F{patient_surgery_date}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="37ade900-d086-421d-96c7-8f5edb77c971" mode="Opaque" x="5" y="0" width="270" height="15" forecolor="#000000" backcolor="#F9F6F6"/>
+				<box>
+					<topPen lineWidth="1.0"/>
+					<leftPen lineWidth="1.0"/>
+					<bottomPen lineWidth="1.0"/>
+					<rightPen lineWidth="1.0"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<font fontName="SansSerif" size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[ DEMOGRAPHICS]]></text>
+			</staticText>
+			<textField>
+				<reportElement uuid="9596b7ae-04db-4dc3-9007-ef42c53b2707" x="5" y="47" width="260" height="12"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="SansSerif" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Best Phone: "+$F{patientPhoneBest}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="602e101d-876f-40a0-b543-323d7a6a3cc8" x="5" y="58" width="200" height="12"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="SansSerif" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Alt. Phone: "+$F{patientPhoneAlt}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="8657620f-0ba0-470c-867f-519653f1b75a" x="5" y="17" width="153" height="12"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="SansSerif" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Pt. Height: "+$F{patientHeightFeet}+" ' "+ $F{patientHeightInches}+" \" "]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="4d2bdba4-44ad-4eba-ad46-8a2cdafef3a9" x="162" y="17" width="100" height="12"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="SansSerif" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Pt Weight: "+$F{patientWeightPounds}+"lbs"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="cbfb3996-a3f2-48ac-ad60-18001b7d5d3a" x="5" y="31" width="100" height="12"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="SansSerif" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA["BMI: "+$F{targetBmi}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="5ce81b8f-7572-473f-a18b-29c62d41c584" x="224" y="92" width="86" height="12"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="SansSerif" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Zip: "+$F{patientAddressZip}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="f95ad978-24e2-4815-b207-bc353ffd9e4d" x="5" y="69" width="197" height="12"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="SansSerif" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Patient Email: "+$F{email}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="282dc439-8fdd-4758-a96f-ea9ba776e458" x="5" y="620" width="92" height="20"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="SansSerif" isBold="true"/>
+				</textElement>
+				<text><![CDATA[ REVIEWED BY:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="82ab9638-03c7-4666-9a7f-bb81cffd543a" x="289" y="619" width="100" height="20"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="SansSerif" size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[  REVIEW DATE:]]></text>
+			</staticText>
+			<line>
+				<reportElement uuid="6cf9dfad-f746-4f78-b3fb-d33881f5dba5" x="105" y="638" width="151" height="1"/>
+			</line>
+			<line>
+				<reportElement uuid="a2743c72-cec4-4a00-ae11-0a779b42bae4" x="389" y="640" width="151" height="1"/>
+			</line>
+			<textField>
+				<reportElement uuid="8b563774-d5b9-4310-b0a6-1287450cd9a1" x="5" y="80" width="200" height="12"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="SansSerif" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Home Address: "+$F{patientAddressStreet}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="f426aa66-fa35-4ca5-87ed-710196242275" x="389" y="621" width="163" height="17"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new Date()]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="4e75013d-161c-4acf-a4c4-e146a5b1343f" x="105" y="620" width="160" height="18"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{userReviewed_by}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="14205a5a-4e73-49ab-8938-12eb558fa64b" x="5" y="92" width="157" height="12"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="SansSerif" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA["City: "+$F{patientaddresscity}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="ba3f14b3-78ed-484f-81fb-eeb4e28ded7d" x="168" y="92" width="50" height="12"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="SansSerif" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA["State: "+$F{patientaddressstate}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>
