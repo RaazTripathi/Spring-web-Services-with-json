@@ -53,7 +53,7 @@
 
 
 
-<security-role>
+<!-- <security-role>
      	<description>Normal operator user</description>
      	<role-name>operator</role-name>
    	</security-role>
@@ -75,7 +75,7 @@
 	<login-config>
       	<auth-method>BASIC</auth-method>
    	</login-config>
- 
+  -->
    
 
 
